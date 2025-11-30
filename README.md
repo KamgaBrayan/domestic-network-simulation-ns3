@@ -19,7 +19,7 @@ Nous avons d'abord validé l'infrastructure réseau (Positionnement, Routage Wif
 | Simulation 1 (Basique) | Simulation 2 (Multi-Services) |
 |:---:|:---:|
 | Validation du lien AP <-> Client | Validation du routage vers K Serveurs distincts |
-| ![NetAnim Simu 1](report/simulation/simu1.png) | ![NetAnim Simu 2](report/simulation/simu2.png) |
+| ![NetAnim Simu 1](rapport/simu1.png) | ![NetAnim Simu 2](rapport/simu2.png) |
 | *10 Clients identiques, 1 Serveur* | *Clients alignés à gauche, Serveurs dédiés à droite* |
 
 ### Phase 2 : Collecte et Variabilité (Simulation 3 & 4)
