@@ -14,7 +14,7 @@ Dans un scénario de maison connectée comportant $N$ équipements de $K$ types 
 Le projet a été construit selon une approche itérative rigoureuse, validant chaque étape avant de complexifier le modèle.
 
 ### Phase 1 : Validation Topologique (Simulation 1 & 2)
-Nous avons d'abord validé l'infrastructure réseau (Positionnement, Routage Wifi vers Ethernet) sur des scénarios allégés ($N=10$) à l'aide de l'outil **NetAnim**.
+Nous avons d'abord validé l'infrastructure réseau (Positionnement, Routage Wifi vers Ethernet) sur des scénarios allégés (N=10) à l'aide de l'outil **NetAnim**.
 
 | Simulation 1 (Basique) | Simulation 2 (Multi-Services) |
 |:---:|:---:|
@@ -39,7 +39,7 @@ L'organisation des fichiers suit la logique de production de données :
   - `pcap_to_dataset_final.py` : **Script final**. Réalise un fenêtrage temporel (1s), calcule l'IAT (Inter-Arrival Time) et génère les stats pour l'entrainement.
   - `pcap_to_dataset.py` : Première version (Packet-based). Convertit chaque paquet brut en ligne CSV.
 - **`/workspace/ns-allinone-3.45/ns-3-dev`** : Échantillons de résultats générés.
-  - `wifi-traces-sample.pcap` : Extrait de capture brute.
-  - `maison_animation.xml` : Fichier de visualisation pour NetAnim.
+  - `wifi-traces-25-1.pcap` : Extrait de capture brute.
+  - `maison_animation4.xml` : Fichier de visualisation pour NetAnim final.
 - **`/workspace/analysis`** : Exemple du dataset prêt pour l'entraînement.
   - `dataset_final.csv`
