@@ -1,6 +1,6 @@
 # 📡 Simulation de Réseau Domestique IoT & Génération de Dataset ML (ns-3)
 
-Ce dépôt contient le code source et les outils développés pour simuler un réseau domestique connecté (Smart Home) sous **ns-3**. L'objectif est de générer des traces réseaux réalistes et étiquetées pour entraîner des modèles de Machine Learning (Classification de trafic).
+Ce dépôt contient le code source et les outils développés pour simuler un réseau domestique connecté sous **ns-3**. L'objectif est de générer des traces réseaux réalistes et étiquetées pour entraîner des modèles de Machine Learning (Classification de trafic).
 
 ## 📝 Contexte du Projet
 
